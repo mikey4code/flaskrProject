@@ -1,0 +1,141 @@
+html, body{
+  height: 100%;
+  margin: 0;
+}
+#Main{
+	
+	min-height: 100%;
+	
+}
+
+#mainbody{
+	
+
+	padding: 70px;
+	padding-bottom: 50px;
+	
+
+	
+	
+}
+#boxaline{
+	
+
+	width:750px;
+	margin-left:auto;
+	margin-right:auto;
+	height:auto;
+
+}
+#floating-box {
+    display: inline-block;
+    width: 300px;
+	height:auto;
+    padding: 25px;
+    margin: 25px;
+	border: 2px solid gray;
+	
+
+}
+
+#facts{
+	height: auto;
+    position: left;
+    left: 0%;
+	padding-right: 0px;
+    margin-left: 300px;
+    top: 0;
+	width:50em; 
+	font-style:italic; font-family:Georgia, Times, serif; font-size:24px; color:#ff4d4d;  
+	border-left: 4px solid red;
+   
+}
+
+
+
+#head{
+	margin-left: 300px;
+}
+hr{
+	color: black;
+	background-color: black;
+	height: 1px;
+}
+
+#aboutus{
+	font-style: italic;
+	font-size:24px; 
+	color:#ff4d4d;
+
+}
+
+#aboutus2{
+	font-style: italic;
+	font-size:24px; 
+	color:#ff4d4d;
+}
+#name1{
+	font-style: italic;
+	color:#ff4d4d;
+}
+#name2{
+	font-style: italic;
+	color:#ff4d4d;
+}
+
+.footer-basic-centered{
+	background-color: #292c2f;
+	box-shadow: 0 1px 1px 0 rgba(0, 0, 0, 0.12);
+	box-sizing: border-box;
+	width: 100%;
+	text-align: center;
+	font: normal 18px sans-serif;
+
+	padding: 25px;
+	margin-top: 80px;
+}
+
+.footer-basic-centered {
+	color:  #8d9093;
+	font-size: 24px;
+	margin: 0;
+}
+
+.footer-basic-centered .footer-company-name{
+	color:  #8f9296;
+	font-size: 14px;
+	margin: 0;
+}
+
+.footer-basic-centered .footer-links{
+	list-style: none;
+	font-weight: bold;
+	color:  #ffffff;
+	padding: 35px 0 23px;
+	margin: 0;
+}
+
+.footer-basic-centered .footer-links a{
+	display:inline-block;
+	text-decoration: none;
+	color: inherit;
+}
+#story1{
+	width:750px;
+	margin-left:auto;
+	margin-right:auto;
+	height:auto;
+}
+.fa-facebook {
+  
+	color: white;
+}
+
+.fa-twitter {
+  
+	color: white;
+}
+
+
+
+

@@ -1,0 +1,22 @@
+{% extends 'layout.html' %}
+
+{% block body %}
+  <h1> Welcome {{session.username}}</h1>
+  
+  <hr>
+	
+<div class="container">
+  <h2>Personal Info</h2>
+  <ul class="list-group">
+    <li class="list-group-item">First Name : {{users.name}}</li>
+	<li class="list-group-item">Last Name : {{users.lastname}}</li>
+	<li class="list-group-item">Email : {{users.email}}</li>
+	<li class="list-group-item">Blood Type : {{users.zipcode}}</li>
+	<li class="list-group-item">Username : {{users.username}}</li>
+	<li class="list-group-item">Password: {{users.password}}</li>
+	
+ 
+  </ul>
+</div>
+	
+{% endblock %}

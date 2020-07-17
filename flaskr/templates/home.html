@@ -1,0 +1,77 @@
+{% extends 'layout.html' %}
+
+{% block body %}
+
+  <div class="jumbotron text-center">
+    <h1>Welcome To The Online Blood Bank</h1>
+    <p class="lead"> A website for people to quickly and efficiently find matching blood types.</p>
+ 
+ <!-- dont display when login-->
+   {% if session.logged_in == NULL %}
+      <a href="/register" class="btn btn-primary btn-lg">Register</a>
+      <a href="/login" class="btn btn-success btn-lg">Login</a>
+    {% endif %} 
+	
+	
+  </div>
+  
+  <hr>
+  
+ 
+ <div id="boxaline">
+ 
+  	<div id="floating-box"><h6><strong>How this website works:</strong> </h6><br>
+	<p>We maintain blood donors’ information. The blood donors
+	can register to our system and then you create a profile. Some features are,
+	you can create an account, send blood request, and can check the donor list and associated
+	information. You will be able to search for specific blood groups and try to find nearby
+	donors. Then you can contact the donors. So feel free to sign up with us. </p>
+
+	</div>
+  
+  	<div id="floating-box"><h6><strong>How to join us:</strong> </h6><br>
+	<p>We made joining as easy as we can. Look right above and you will see two different buttons. Or look right below 
+	you, and there is also a "get started" button.
+	One "register" and one "login". Those two options are also located at the top
+	right corner as well. If you are already a member with us, welcome back. If you are new just click
+	"register" and fill out a few questions.</p>
+	
+	
+	
+	</div>
+	
+</div>
+
+	<br>
+	<br>
+	<br>
+	{% if session.logged_in == NULL %}
+	<a href="/register" class="btn btn-primary active btn-block btn-lg">GET STARTED !</a>
+	{% endif %} 
+	<br>
+	<hr>
+	<h3>Success Stories</h3>
+	<div id="name1">
+		<h4>Amy:</h4>
+	</div>
+	<p>In December 2011, I was diagnosed with large diffuse B-cell non-hodgkins lymphoma and spent 6 months in and out of the hospital with 5 consecutive days of a constant chemo drip. 
+	   The chemotherapy was increased 20% with each treatment. By the middle of my treatment, the medications were so strong, I needed to two blood transfusions.
+
+	   I am so blessed and grateful for those who gave selflessly. Your blood donations helped save my life. I've been a lifetime donor myself. 
+	   Here I am today, just a few short years into my remission and I'm well enough to donate again! Thank you all! God Bless!
+	 </p>
+	 <br>
+	 <div id="name1">
+		<h4>Nicole:</h4>
+	</div>
+	 <p>My son, Chase, was diagnosed on 9/18/2013 with a Stage 3 Anaplastic Ependymoma, Brain Cancer. He survived an 8 hour surgery to remove the tumor the next day. 
+	    During the surgery, he needed a blood transfusion and because of wonderful people who donate, they had his blood type on hand. 
+	    Thankfully, he had a successful surgery and it has now been 
+	    16 months since there was any evidence of disease!
+	 </p>
+	 <br>
+	 <p><small>Source: <a href="https://www.redcrossblood.org/donating-blood/blood-donor-community/blood-recipient-stories?page=1"> https://www.redcrossblood.org/donating-blood/blood-donor-community/blood-recipient-stories?page=1</a></small>
+
+
+
+{% endblock %}
